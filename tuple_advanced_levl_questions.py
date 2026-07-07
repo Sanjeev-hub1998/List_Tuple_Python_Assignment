@@ -57,3 +57,10 @@ print("Nested elements are:",t[4])
 
 
 """
+li = [1,5,8,6,4,8,36,4,7,5,7,5]
+fre = []
+for i in li:
+    if i not in fre:
+        count = li.count(i)
+        print("Frequency",count,":",[i]*count)
+        fre.append(i)
